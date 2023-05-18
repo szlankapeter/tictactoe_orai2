@@ -20,7 +20,7 @@ class Elem {
   getIndex() {
     return this.#index;
   }
-  setElem(adat) {
+  setElem(adat) {+
     this.pElem.html(adat);
   }
   kattintasTrigger() {
